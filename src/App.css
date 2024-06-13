@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  justify-content: center;
+  margin:30px auto;
+  max-width:300px;
+  flex-direction: column;
+  box-shadow: 2px 3px 5px 0px gray;
+  padding:10px;
+  border-radius: 10px;
+
+}
+.city-name{
+  width:80%;
+  padding:10px 20px;
+  border-radius: 5px;
+  border-color: blue;
+}
+.weather-btn{
+  width:20%;
+}
+.text-btn{
+  display: flex;
+}
+.city-name::placeholder{
+  color:green;
+}
+
+.weather-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.weather-report-content{
+  box-shadow: 2px 3px 5px solid gray;
+}
